@@ -25,7 +25,7 @@ jobs:
         lfs: true
 
     - name: Set up JDK
-      uses: actions/setup-java@860f60056505705214d223b91ed7a30f173f6142
+      uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d
       with:
         java-version: ${{ matrix.java }}
         distribution: 'zulu'
